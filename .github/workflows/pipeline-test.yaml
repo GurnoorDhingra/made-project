@@ -30,7 +30,7 @@ jobs:
         pip install unittest2
 
     - name: Make tests.sh executable
-      run: chmod +x project/tests.sh
+      run: chmod +x project/test.sh
 
     - name: Run tests
-      run: project/tests.sh
+      run: project/test.sh
